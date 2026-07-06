@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>VoiceNest | Save Recording</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Header -->
+
+        <header class="record-header">
+
+            <div class="logo">
+
+                <i class="fa-solid fa-microphone-lines"></i>
+
+            </div>
+
+            <h1>VoiceNest</h1>
+
+            <p class="record-status complete">
+
+                <i class="fa-solid fa-circle-check"></i>
+
+                Recording Complete
+
+            </p>
+
+        </header>
+
+        <!-- Audio Preview -->
+
+        <div class="card">
+
+            <div class="left">
+
+                <div class="icon purple">
+
+                    <i class="fa-solid fa-play"></i>
+
+                </div>
+
+                <div class="content">
+
+                    <h2>Audio Preview</h2>
+
+                    <p>Duration : 00:32</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Recording Name -->
+
+        <div class="card">
+
+            <div class="left">
+
+                <div class="icon blue">
+
+                    <i class="fa-solid fa-file-audio"></i>
+
+                </div>
+
+                <div class="content" style="width:100%;">
+
+                    <h2>Recording Name</h2>
+
+                    <input
+                        type="text"
+                        placeholder="Enter recording name..."
+                        class="record-input">
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Encryption -->
+
+        <div class="card">
+
+            <div class="left">
+
+                <div class="icon green">
+
+                    <i class="fa-solid fa-lock"></i>
+
+                </div>
+
+                <div class="content">
+
+                    <h2>Encryption Status</h2>
+
+                    <p>Encrypted and ready to save.</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Save Button -->
+
+        <button class="action-btn pause-btn">
+
+            <i class="fa-solid fa-floppy-disk"></i>
+
+            Save Recording
+
+        </button>
+
+        <!-- Discard Button -->
+
+        <button class="action-btn stop-btn">
+
+            <i class="fa-solid fa-trash"></i>
+
+            Discard Recording
+
+        </button>
+
+    </div>
+
+</body>
+
+</html>

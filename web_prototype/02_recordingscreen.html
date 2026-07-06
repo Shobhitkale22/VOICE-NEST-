@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VoiceNest | Recording</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- Header -->
+    <header class="record-header">
+
+        <div class="logo recording-logo">
+            <i class="fa-solid fa-microphone-lines"></i>
+        </div>
+
+        <h1>VoiceNest</h1>
+
+        <p class="record-status">
+            <span class="record-dot"></span>
+            Recording...
+        </p>
+
+    </header>
+
+    <!-- Timer Card -->
+
+    <div class="timer-card">
+
+        <h2 id="timer">00:00</h2>
+
+        <!-- Wave Animation -->
+
+        <div class="wave">
+
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+
+        </div>
+
+    </div>
+
+    <!-- Pause Button -->
+
+    <button class="action-btn pause-btn">
+
+        <i class="fa-solid fa-pause"></i>
+
+        Pause Recording
+
+    </button>
+
+    <!-- Stop Button -->
+
+    <button class="action-btn stop-btn">
+
+        <i class="fa-solid fa-stop"></i>
+
+        Stop Recording
+
+    </button>
+
+    <!-- Encryption Status -->
+
+    <div class="security-card">
+
+        <i class="fa-solid fa-lock"></i>
+
+        <div>
+
+            <h3>Secure Recording</h3>
+
+            <p>Your recording is being encrypted.</p>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="record.js"></script>
+
+</body>
+</html>
