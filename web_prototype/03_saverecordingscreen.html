@@ -63,7 +63,8 @@
 
                     <h2>Audio Preview</h2>
 
-                    <p>Duration : 00:32</p>
+                    <!-- Added ID -->
+                    <p id="durationText">Duration : 00:00</p>
 
                 </div>
 
@@ -89,6 +90,7 @@
 
                     <input
                         type="text"
+                        id="recordingName"
                         placeholder="Enter recording name..."
                         class="record-input">
 
@@ -124,7 +126,7 @@
 
         <!-- Save Button -->
 
-        <button class="action-btn pause-btn">
+        <button class="action-btn pause-btn" id="saveBtn">
 
             <i class="fa-solid fa-floppy-disk"></i>
 
@@ -134,7 +136,7 @@
 
         <!-- Discard Button -->
 
-        <button class="action-btn stop-btn">
+        <button class="action-btn stop-btn" id="discardBtn">
 
             <i class="fa-solid fa-trash"></i>
 
@@ -143,6 +145,9 @@
         </button>
 
     </div>
+
+    <!-- JavaScript -->
+    <script src="./js/saverecording.js"></script>
 
 </body>
 

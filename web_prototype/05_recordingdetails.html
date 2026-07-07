@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>VoiceNest | Recording Details</title>
+
+    <!-- Google Font -->
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <!-- Main CSS -->
+
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- Header -->
+
+    <header class="record-header">
+
+        <div class="logo">
+
+            <i class="fa-solid fa-microphone-lines"></i>
+
+        </div>
+
+        <h1>VoiceNest</h1>
+
+        <p>Recording Details</p>
+
+    </header>
+
+    <!-- Back Button -->
+
+    <button class="back-btn">
+
+        <i class="fa-solid fa-arrow-left"></i>
+
+        Back
+
+    </button>
+
+    <!-- Recording Information -->
+
+    <div class="card">
+
+        <div class="left">
+
+            <div class="icon purple">
+
+                <i class="fa-solid fa-microphone"></i>
+
+            </div>
+
+            <div class="content">
+
+                <h2 id="recordingTitle">Project Discussion</h2>
+
+                <p id="recordingDate">Today • 10:42 AM</p>
+
+                <p id="recordingDuration">Duration : 00:45</p>
+
+                <p class="encrypted">
+
+                    <i class="fa-solid fa-lock"></i>
+
+                    AES-256 Encrypted
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Play -->
+
+    <button class="action-btn play-btn" id="playBtn">
+
+        <i class="fa-solid fa-play"></i>
+
+        Play Recording
+
+    </button>
+
+    <!-- Pause -->
+
+    <button class="action-btn pause-btn" id="pauseBtn">
+
+        <i class="fa-solid fa-pause"></i>
+
+        Pause
+
+    </button>
+
+    <!-- Transcript -->
+
+    <button class="action-btn transcript-btn" id="transcriptBtn">
+
+        <i class="fa-solid fa-file-lines"></i>
+
+        View Transcript
+
+    </button>
+
+    <!-- Private Cloud -->
+
+    <button class="action-btn cloud-btn" id="privateCloudBtn">
+
+        <i class="fa-solid fa-cloud"></i>
+
+        Upload to Private Cloud
+
+    </button>
+
+    <!-- Share -->
+
+    <button class="action-btn share-btn" id="shareBtn">
+
+        <i class="fa-solid fa-user-group"></i>
+
+        Share with VoiceNest User
+
+    </button>
+
+    <!-- Rename -->
+
+    <button class="action-btn rename-btn" id="renameBtn">
+
+        <i class="fa-solid fa-pen"></i>
+
+        Rename Recording
+
+    </button>
+
+    <!-- Delete -->
+
+    <button class="action-btn delete-btn" id="deleteBtn">
+
+        <i class="fa-solid fa-trash"></i>
+
+        Delete Recording
+
+    </button>
+
+</div>
+
+<script src="./js/details.js"></script>
+
+</body>
+
+</html>

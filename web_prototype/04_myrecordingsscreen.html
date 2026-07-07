@@ -49,118 +49,20 @@
 
         <input
             type="text"
+            id="searchInput"
             placeholder="Search recordings...">
 
     </div>
 
-    <!-- Recording 1 -->
+    <!-- Recordings will be loaded here by JavaScript -->
 
-    <div class="card recording-card">
-
-        <div class="left">
-
-            <div class="icon purple">
-
-                <i class="fa-solid fa-microphone-lines"></i>
-
-            </div>
-
-            <div class="content">
-
-                <h2>Project Discussion</h2>
-
-                <p>
-                    <i class="fa-solid fa-lock"></i>
-                    Encrypted
-                </p>
-
-                <small>Today • 00:45</small>
-
-            </div>
-
-        </div>
-
-        <div class="arrow">
-
-            <i class="fa-solid fa-chevron-right"></i>
-
-        </div>
-
-    </div>
-
-    <!-- Recording 2 -->
-
-    <div class="card recording-card">
-
-        <div class="left">
-
-            <div class="icon blue">
-
-                <i class="fa-solid fa-microphone-lines"></i>
-
-            </div>
-
-            <div class="content">
-
-                <h2>Meeting with Founder</h2>
-
-                <p>
-                    <i class="fa-solid fa-lock"></i>
-                    Encrypted
-                </p>
-
-                <small>Yesterday • 01:32</small>
-
-            </div>
-
-        </div>
-
-        <div class="arrow">
-
-            <i class="fa-solid fa-chevron-right"></i>
-
-        </div>
-
-    </div>
-
-    <!-- Recording 3 -->
-
-    <div class="card recording-card">
-
-        <div class="left">
-
-            <div class="icon yellow">
-
-                <i class="fa-solid fa-microphone-lines"></i>
-
-            </div>
-
-            <div class="content">
-
-                <h2>College Notes</h2>
-
-                <p>
-                    <i class="fa-solid fa-lock"></i>
-                    Encrypted
-                </p>
-
-                <small>5 Jul • 00:58</small>
-
-            </div>
-
-        </div>
-
-        <div class="arrow">
-
-            <i class="fa-solid fa-chevron-right"></i>
-
-        </div>
+    <div id="recordingsList">
 
     </div>
 
     <!-- New Recording -->
 
-    <button class="action-btn pause-btn">
+    <button class="action-btn pause-btn" id="newRecordingBtn">
 
         <i class="fa-solid fa-plus"></i>
 
@@ -169,6 +71,8 @@
     </button>
 
 </div>
+
+<script src="./js/myrecording.js"></script>
 
 </body>
 

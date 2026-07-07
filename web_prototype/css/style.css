@@ -777,3 +777,137 @@ header h1{
     color:#6d5cff;
 
 }    
+
+
+
+/* ===========================================
+   DETAILS SCREEN
+===========================================*/
+
+.back-btn{
+
+    width:100%;
+
+    padding:15px;
+
+    border:none;
+
+    border-radius:18px;
+
+    background:#f3f5ff;
+
+    color:#4b4f70;
+
+    font-size:16px;
+
+    cursor:pointer;
+
+    margin-bottom:20px;
+
+    transition:.3s;
+
+}
+
+.back-btn:hover{
+
+    background:#e8ebff;
+
+}
+
+.encrypted{
+
+    color:#23b889;
+
+    margin-top:10px;
+
+    font-weight:500;
+
+}
+
+.play-btn{
+
+    background:#6d5cff;
+
+    color:white;
+
+}
+
+.play-btn:hover{
+
+    background:#5b49f5;
+
+}
+
+.transcript-btn{
+
+    background:#ffffff;
+
+    color:#6d5cff;
+
+    border:2px solid #6d5cff;
+
+}
+
+.transcript-btn:hover{
+
+    background:#6d5cff;
+
+    color:white;
+
+}
+
+.cloud-btn{
+
+    background:#3480ff;
+
+    color:white;
+
+}
+
+.cloud-btn:hover{
+
+    background:#236df0;
+
+}
+
+.share-btn{
+
+    background:#23b889;
+
+    color:white;
+
+}
+
+.share-btn:hover{
+
+    background:#1aa377;
+
+}
+
+.rename-btn{
+
+    background:#ffb300;
+
+    color:white;
+
+}
+
+.rename-btn:hover{
+
+    background:#eea400;
+
+}
+
+.delete-btn{
+
+    background:#ff4b5c;
+
+    color:white;
+
+}
+
+.delete-btn:hover{
+
+    background:#ea3245;
+
+}
