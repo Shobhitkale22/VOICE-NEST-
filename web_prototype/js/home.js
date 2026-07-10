@@ -31,6 +31,6 @@ document.getElementById("cloud").addEventListener("click", function () {
 
 document.getElementById("settings").addEventListener("click", function () {
 
-    alert("settings feature will be added in the next version.");
+    window.location.href = "06_settingsscreen.html";
 
 });

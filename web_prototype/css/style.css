@@ -911,3 +911,158 @@ header h1{
     background:#ea3245;
 
 }
+
+
+/* ==========================================
+   SETTINGS SCREEN
+========================================== */
+
+/* Account / Settings Card */
+
+.card small{
+
+    display:block;
+
+    margin-top:8px;
+
+    color:#7b8198;
+
+    font-size:13px;
+
+    font-weight:500;
+
+}
+
+.card .content p{
+
+    margin-top:6px;
+
+    line-height:1.5;
+
+}
+
+/* About Section */
+
+.card .content p:last-child{
+
+    line-height:1.8;
+
+}
+
+/* Logout Button */
+
+#logoutBtn{
+
+    width:100%;
+
+    margin-top:20px;
+
+    background:#ff5b6e;
+
+    color:white;
+
+    border:none;
+
+    border-radius:18px;
+
+    padding:18px;
+
+    font-size:17px;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+    box-shadow:0 10px 25px rgba(255,91,110,.25);
+
+}
+
+#logoutBtn:hover{
+
+    transform:translateY(-4px);
+
+    background:#eb3e54;
+
+}
+
+/* Back Button */
+
+#backHomeBtn{
+
+    width:100%;
+
+    margin-top:15px;
+
+    background:#6d5cff;
+
+    color:white;
+
+    border:none;
+
+    border-radius:18px;
+
+    padding:18px;
+
+    font-size:17px;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+    box-shadow:0 10px 25px rgba(109,92,255,.25);
+
+}
+
+#backHomeBtn:hover{
+
+    transform:translateY(-4px);
+
+    background:#5644ff;
+
+}
+
+/* Better spacing */
+
+.card{
+
+    margin-bottom:18px;
+
+}
+
+/* Responsive */
+
+@media(max-width:480px){
+
+    .card .content h2{
+
+        font-size:18px;
+
+    }
+
+    .card .content p{
+
+        font-size:14px;
+
+    }
+
+    .card small{
+
+        font-size:12px;
+
+    }
+
+    #logoutBtn,
+
+    #backHomeBtn{
+
+        font-size:16px;
+
+        padding:16px;
+
+    }
+
+}
